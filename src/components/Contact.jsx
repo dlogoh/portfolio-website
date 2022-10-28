@@ -81,10 +81,10 @@ function Contact() {
               required
             ></textarea>
           </div>
+          <button type="submit" className="btn btn-primary mt-3 fw-bold">
+            Submit
+          </button>
         </form>
-        <button type="submit" className="btn btn-primary mt-3 fw-bold">
-          Submit
-        </button>
         <div className="status mt-3" id="status"></div>
       </div>
     </section>
