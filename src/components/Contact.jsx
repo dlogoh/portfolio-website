@@ -31,7 +31,14 @@ function Contact() {
     <section>
       <div className="container mb-5">
         <h2 className="text-center py-5">Let's Get In Touch</h2>
-        <form id="contact" name="contact" method="POST" onSubmit={validateForm}>
+        <form
+          id="contact"
+          name="contact"
+          method="POST"
+          onSubmit={validateForm}
+          netlify="true"
+          netlify-honeypot="bot-field"
+        >
           <input type="hidden" name="form-name" value="contact" />
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
