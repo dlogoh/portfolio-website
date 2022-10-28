@@ -94,7 +94,7 @@ function Contact() {
         <button
           type="submit"
           className="btn btn-primary mt-3 fw-bold"
-          onClick={validateForm}
+          // onClick={validateForm}
         >
           Submit
         </button>
