@@ -87,9 +87,9 @@ function Contact() {
               required
             ></textarea>
           </div>
-          <div className="field">
+          {/* <div className="field">
             <div data-netlify-recaptcha="true"></div>
-          </div>
+          </div> */}
         </form>
         <button
           type="submit"
