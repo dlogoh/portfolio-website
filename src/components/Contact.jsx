@@ -32,7 +32,7 @@ function Contact() {
       <div className="container mb-5">
         <h2 className="text-center py-5">Let's Get In Touch</h2>
         <form id="contact" name="contact" method="POST" onSubmit={validateForm}>
-          <input type="hidden" name="contact" value="contact" />
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
               Name
