@@ -1,38 +1,38 @@
 import React from "react";
 
 function Contact() {
-  // function validateForm() {
-  //   var name = document.getElementById("name").value;
-  //   if (name === "") {
-  //     document.querySelector(".status").innerHTML = "Name cannot be empty";
-  //     return false;
-  //   }
-  //   var email = document.getElementById("email").value;
-  //   if (email === "") {
-  //     document.querySelector(".status").innerHTML = "Email cannot be empty";
-  //     return false;
-  //   } else {
-  //     var re =
-  //       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  //     if (!re.test(email)) {
-  //       document.querySelector(".status").innerHTML = "Email format invalid";
-  //       return false;
-  //     }
-  //   }
-  //   var message = document.getElementById("message").value;
-  //   if (message === "") {
-  //     document.querySelector(".status").innerHTML = "Message cannot be empty";
-  //     return false;
-  //   }
-  //   document.querySelector(".status").innerHTML = "Sending...";
-  // }
+  function validateForm() {
+    var name = document.getElementById("name").value;
+    if (name === "") {
+      document.querySelector(".status").innerHTML = "Name cannot be empty";
+      return false;
+    }
+    var email = document.getElementById("email").value;
+    if (email === "") {
+      document.querySelector(".status").innerHTML = "Email cannot be empty";
+      return false;
+    } else {
+      var re =
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+      if (!re.test(email)) {
+        document.querySelector(".status").innerHTML = "Email format invalid";
+        return false;
+      }
+    }
+    var message = document.getElementById("message").value;
+    if (message === "") {
+      document.querySelector(".status").innerHTML = "Message cannot be empty";
+      return false;
+    }
+    document.querySelector(".status").innerHTML = "Sending...";
+  }
 
   return (
     <section>
       <div className="container mb-5">
         <h2 className="text-center py-5">Let's Get In Touch</h2>
-        <form id="contact-form" name="contact-form" action="POST">
-          <input type="hidden" name="form-name" value="contact-form" />
+        <form id="contact" name="contact" method="POST" onSubmit={validateForm}>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
               Name
@@ -81,15 +81,8 @@ function Contact() {
               required
             ></textarea>
           </div>
-          {/* <div className="field">
-            <div data-netlify-recaptcha="true"></div>
-          </div> */}
         </form>
-        <button
-          type="submit"
-          className="btn btn-primary mt-3 fw-bold"
-          // onClick={validateForm}
-        >
+        <button type="submit" className="btn btn-primary mt-3 fw-bold">
           Submit
         </button>
         <div className="status mt-3" id="status"></div>
