@@ -32,6 +32,7 @@ function Contact() {
       <div className="container mb-5">
         <h2 className="text-center py-5">Let's Get In Touch</h2>
         <form id="contact-form" name="contact-form" action="POST" netlify>
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mb-3">
             <label htmlFor="name" className="form-label">
               Name
