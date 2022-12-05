@@ -110,13 +110,17 @@ function MainContent() {
                   </p>
                 </div>
               </div>
-              <div className='card'>
-                <img src={`${thePantry}`} className='card-img-top' alt='...' />
+              <div className='card bg-dark'>
+                <img
+                  src={`${thePantry}`}
+                  className='card-img-top pt-3'
+                  alt='...'
+                />
                 <div className='card-body'>
-                  <h5 className='card-title mt-5'>
+                  <h5 className='card-title mt-5 text-white'>
                     A website where users can store their favorite recipes
                   </h5>
-                  <p className='card-text'>
+                  <p className='card-text text-white'>
                     Work in progress... currently working on back-end.
                   </p>
                   <a href='https://github.com/dlogoh/thepantry'>
@@ -128,7 +132,11 @@ function MainContent() {
                 </div>
               </div>
               <div className='card'>
-                <img src={`${booklist}`} className='card-img-top' alt='...' />
+                <img
+                  src={`${booklist}`}
+                  className='card-img-top pt-3'
+                  alt='...'
+                />
                 <div className='card-body'>
                   <h5 className='card-title'>
                     A simple CRUD app that let's users create a booklist
@@ -173,21 +181,13 @@ function MainContent() {
                   excel my learning.
                 </p>
                 <p>
-                  These include front-end languages, a back-end language, and
-                  several frameworks.{" "}
+                  These include front-end languages, back-end frameworks, and
+                  other useful tools.{" "}
                 </p>
                 <p>
                   I also completed classes that focused on networking, computer
                   hardware, and others that have helped build my CS foundation.
                 </p>
-                <a href='skills.html'>
-                  <button
-                    type='button'
-                    className='btn btn-primary mt-3 fw-bold'
-                  >
-                    Learn More
-                  </button>
-                </a>
               </div>
             </div>
           </div>
