@@ -3,22 +3,24 @@ import hero from "../img/undraw_feeling_proud_qne1.svg";
 import aboutPic from "../img/undraw_developer_activity_re_39tg.svg";
 import skillsPic from "../img/undraw_static_assets_rpm6.svg";
 import cryptograph from "../img/cryptograph.png";
+import thePantry from "../img/ThePantryPortfolioImg.png";
+import booklist from "../img/Booklist.png";
 
 function MainContent() {
   return (
     <div>
       {/* <!-- hero --> */}
       <main>
-        <div className="my-5">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-7">
-                <img src={hero} alt="" className="img-fluid" />
+        <div className='my-5'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-7'>
+                <img src={hero} alt='' className='img-fluid' />
               </div>
-              <div className="col-md-5">
+              <div className='col-md-5'>
                 <h1>Have We Met?</h1>
-                <h3 className="mt-5">Lets get to know each other!</h3>
-                <p className="mt-5">
+                <h3 className='mt-5'>Lets get to know each other!</h3>
+                <p className='mt-5'>
                   My name is David Harris and I'm an aspiring full stack web
                   developer.
                 </p>
@@ -28,10 +30,10 @@ function MainContent() {
                   way to get in touch with me if you would like to get to know
                   me further or potentially hire me!
                 </p>
-                <a href="#about">
+                <a href='#about'>
                   <button
-                    type="button"
-                    className="btn btn-primary mt-5 fw-bold"
+                    type='button'
+                    className='btn btn-primary mt-5 fw-bold'
                   >
                     Let's Go!
                   </button>
@@ -43,11 +45,11 @@ function MainContent() {
       </main>
       {/* <!-- about --> */}
       <section>
-        <div className="bg-dark" id="about">
-          <div className="container p-5 text-white">
-            <div className="row">
-              <div className="col-md-7">
-                <h1 className="p-3">About Me</h1>
+        <div className='bg-dark' id='about'>
+          <div className='container p-5 text-white'>
+            <div className='row'>
+              <div className='col-md-7'>
+                <h1 className='p-3'>About Me</h1>
                 <p>
                   All of my life I have been skilled with computers. A few years
                   ago, coding and development grabbed my attention and I have
@@ -69,13 +71,13 @@ function MainContent() {
                   passionate about development, is willing to still continue to
                   learn outside of working hours, and has a burning desire to
                   become a master of the field, <br />{" "}
-                  <span className="fw-bold" style={{ color: "#DC143C" }}>
+                  <span className='fw-bold' style={{ color: "#DC143C" }}>
                     look no further.
                   </span>
                 </p>
               </div>
-              <div className="col-md-5">
-                <img src={aboutPic} alt="" className="img-fluid" />
+              <div className='col-md-5'>
+                <img src={aboutPic} alt='' className='img-fluid' />
               </div>
             </div>
           </div>
@@ -83,52 +85,63 @@ function MainContent() {
       </section>
       {/* <!-- projects --> */}
       <section>
-        <div className="my-5" id="projects">
-          <div className="container">
-            <div className="row text-center">
+        <div className='my-5' id='projects'>
+          <div className='container'>
+            <div className='row text-center'>
               <h1>My Portfolio</h1>
             </div>
-            <div className="card-group row mt-5">
-              <div className="card pt-2">
-                <img src={cryptograph} className="card-img-top" alt="..." />
-                <div className="card-body">
-                  <h5 className="card-title">CryptoGraph</h5>
-                  <p className="card-text">
+            <div className='card-group row mt-5'>
+              <div className='card pt-2'>
+                <img src={cryptograph} className='card-img-top' alt='...' />
+                <div className='card-body'>
+                  <h5 className='card-title'>CryptoGraph</h5>
+                  <p className='card-text'>
                     A simple app that displays the top 20 crypto-currencies by
                     market cap. Then displays the last 10 days in prices on a
                     line graph.
                   </p>
-                  <a href="https://github.com/dlogoh/CryptoGraph">
-                    <i className="fa-brands fa-2x fa-square-github" />
+                  <a href='https://github.com/dlogoh/CryptoGraph'>
+                    <i className='fa-brands fa-2x fa-square-github' />
                   </a>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Project still under construction | making it responsive
+                  <p className='card-text'>
+                    <small className='text-muted'>
+                      Project is not responsive on mobile.
                     </small>
                   </p>
                 </div>
               </div>
-              <div className="card">
-                {/* <img src="" className="card-img-top" alt="..." /> */}
-                <div className="card-body">
-                  <h5 className="card-title">More on the way!</h5>
-                  <p className="card-text"></p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
+              <div className='card'>
+                <img src={`${thePantry}`} className='card-img-top' alt='...' />
+                <div className='card-body'>
+                  <h5 className='card-title mt-5'>
+                    A website where users can store their favorite recipes
+                  </h5>
+                  <p className='card-text'>
+                    Work in progress... currently working on back-end.
+                  </p>
+                  <a href='https://github.com/dlogoh/thepantry'>
+                    <i className='fa-brands fa-2x fa-square-github' />
+                  </a>
+                  <p className='card-text'>
+                    <small className='text-muted'></small>
                   </p>
                 </div>
               </div>
-              <div className="card">
-                {/* <img src="" className="card-img-top" alt="..." /> */}
-                <div className="card-body">
-                  <h5 className="card-title">More on the way!</h5>
-                  <p className="card-text"></p>
-                  <p className="card-text">
-                    <small className="text-muted">
-                      Last updated 3 mins ago
-                    </small>
+              <div className='card'>
+                <img src={`${booklist}`} className='card-img-top' alt='...' />
+                <div className='card-body'>
+                  <h5 className='card-title'>
+                    A simple CRUD app that let's users create a booklist
+                  </h5>
+                  <p className='card-text'>
+                    Made with vanilla JS, this app demonstrates the basic
+                    principles of CRUD
+                  </p>
+                  <a href='https://github.com/dlogoh/booklist'>
+                    <i className='fa-brands fa-2x fa-square-github' />
+                  </a>
+                  <p className='card-text'>
+                    <small className='text-muted'></small>
                   </p>
                 </div>
               </div>
@@ -138,13 +151,13 @@ function MainContent() {
       </section>
       {/* <!-- skills --> */}
       <section>
-        <div className="bg-dark" id="skills">
-          <div className="container p-5 text-white">
-            <div className="row">
-              <div className="col-md-5">
-                <img src={skillsPic} alt="" className="img-fluid" />
+        <div className='bg-dark' id='skills'>
+          <div className='container p-5 text-white'>
+            <div className='row'>
+              <div className='col-md-5'>
+                <img src={skillsPic} alt='' className='img-fluid' />
               </div>
-              <div className="col-md-7 px-5">
+              <div className='col-md-7 px-5'>
                 <h1>My Skills</h1>
                 <hr />
                 <p>
@@ -167,10 +180,10 @@ function MainContent() {
                   I also completed classes that focused on networking, computer
                   hardware, and others that have helped build my CS foundation.
                 </p>
-                <a href="skills.html">
+                <a href='skills.html'>
                   <button
-                    type="button"
-                    className="btn btn-primary mt-3 fw-bold"
+                    type='button'
+                    className='btn btn-primary mt-3 fw-bold'
                   >
                     Learn More
                   </button>
