@@ -21,8 +21,8 @@ function MainContent() {
                 <h1>Have We Met?</h1>
                 <h3 className='mt-5'>Lets get to know each other!</h3>
                 <p className='mt-5'>
-                  My name is David Harris and I'm an aspiring full stack web
-                  developer.
+                  My name is David Harris and I'm a full stack web developer and
+                  freelancer.
                 </p>
                 <p>
                   Take a look around and take the time to get to know me. Below
@@ -30,12 +30,12 @@ function MainContent() {
                   way to get in touch with me if you would like to get to know
                   me further or potentially hire me!
                 </p>
-                <a href='#about'>
+                <a href='#contact'>
                   <button
                     type='button'
                     className='btn btn-primary mt-5 fw-bold'
                   >
-                    Let's Go!
+                    I'm Interested!
                   </button>
                 </a>
               </div>
