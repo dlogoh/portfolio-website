@@ -100,11 +100,25 @@ function MainContent() {
                     market cap. Then displays the last 10 days in prices on a
                     line graph.
                   </p>
-                  <a href='https://github.com/dlogoh/CryptoGraph'>
-                    <i className='fa-brands fa-2x fa-square-github' />
-                  </a>
+                  <div className='container d-flex justify-center align-items-center'>
+                    <a
+                      href='https://github.com/dlogoh/CryptoGraph'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <i className='fa-brands fa-3x fa-square-github' />
+                    </a>
+                    <a
+                      href='https://thriving-panda-f0b5d6.netlify.app/'
+                      className='btn btn-dark m-3'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      Live Demo
+                    </a>
+                  </div>
                   <p className='card-text'>
-                    <small className='text-muted'>
+                    <small className='text-danger'>
                       Project is not responsive on mobile.
                     </small>
                   </p>
@@ -123,9 +137,23 @@ function MainContent() {
                   <p className='card-text text-white'>
                     Work in progress... currently working on back-end.
                   </p>
-                  <a href='https://github.com/dlogoh/thepantry'>
-                    <i className='fa-brands fa-2x fa-square-github' />
-                  </a>
+                  <div className='container d-flex justify-center align-items-center'>
+                    <a
+                      href='https://github.com/dlogoh/thepantry'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <i className='fa-brands fa-3x fa-square-github' />
+                    </a>
+                    <a
+                      href='https://benevolent-sunflower-124d04.netlify.app/'
+                      className='btn btn-light m-3'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      Live Demo
+                    </a>
+                  </div>
                   <p className='card-text'>
                     <small className='text-muted'></small>
                   </p>
@@ -145,9 +173,23 @@ function MainContent() {
                     Made with vanilla JS, this app demonstrates the basic
                     principles of CRUD
                   </p>
-                  <a href='https://github.com/dlogoh/booklist'>
-                    <i className='fa-brands fa-2x fa-square-github' />
-                  </a>
+                  <div className='container d-flex justify-center align-items-center'>
+                    <a
+                      href='https://github.com/dlogoh/booklist'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <i className='fa-brands fa-3x fa-square-github' />
+                    </a>
+                    <a
+                      href='https://precious-souffle-de553e.netlify.app/'
+                      className='btn btn-dark m-3'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      Live Demo
+                    </a>
+                  </div>
                   <p className='card-text'>
                     <small className='text-muted'></small>
                   </p>
