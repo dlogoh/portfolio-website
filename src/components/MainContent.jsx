@@ -4,7 +4,7 @@ import aboutPic from "../img/undraw_developer_activity_re_39tg.svg";
 import skillsPic from "../img/undraw_static_assets_rpm6.svg";
 import cryptograph from "../img/cryptograph.png";
 import thePantry from "../img/ThePantryPortfolioImg.png";
-import booklist from "../img/Booklist.png";
+import expenseTracker from "../img/expenseTracker.png";
 
 function MainContent() {
   return (
@@ -161,28 +161,28 @@ function MainContent() {
               </div>
               <div className='card'>
                 <img
-                  src={`${booklist}`}
+                  src={`${expenseTracker}`}
                   className='card-img-top pt-3'
                   alt='...'
                 />
                 <div className='card-body'>
                   <h5 className='card-title'>
-                    A simple CRUD app that let's users create a booklist
+                    A simple CRUD app that let's users track their expenses.
                   </h5>
                   <p className='card-text'>
                     Made with vanilla JS, this app demonstrates the basic
-                    principles of CRUD
+                    principles of CRUD. Expenses are stored in local storage.
                   </p>
                   <div className='container d-flex justify-center align-items-center'>
                     <a
-                      href='https://github.com/dlogoh/booklist'
+                      href='https://github.com/dlogoh/expense-tracker'
                       target='_blank'
                       rel='noreferrer noopener'
                     >
                       <i className='fa-brands fa-3x fa-square-github' />
                     </a>
                     <a
-                      href='https://precious-souffle-de553e.netlify.app/'
+                      href='https://exquisite-praline-cc0955.netlify.app/'
                       className='btn btn-dark m-3'
                       target='_blank'
                       rel='noreferrer noopener'
