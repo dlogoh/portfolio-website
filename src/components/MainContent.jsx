@@ -37,6 +37,9 @@ function MainContent() {
                   >
                     I'm Interested!
                   </button>
+                  <button className='btn btn-secondary mt-5 ms-3'>
+                    Here2Code
+                  </button>
                 </a>
               </div>
             </div>
