@@ -1,10 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import hero from "../img/undraw_feeling_proud_qne1.svg";
 import aboutPic from "../img/undraw_developer_activity_re_39tg.svg";
 import skillsPic from "../img/undraw_static_assets_rpm6.svg";
 import cryptograph from "../img/cryptograph.png";
 import thePantry from "../img/ThePantryPortfolioImg.png";
 import expenseTracker from "../img/expenseTracker.png";
+import blogImg from "../img/blog-img.jpg";
 
 function MainContent() {
   return (
@@ -36,9 +38,6 @@ function MainContent() {
                     className='btn btn-primary mt-5 fw-bold'
                   >
                     I'm Interested!
-                  </button>
-                  <button className='btn btn-secondary mt-5 ms-3'>
-                    Here2Code
                   </button>
                 </a>
               </div>
@@ -202,6 +201,18 @@ function MainContent() {
           </div>
         </div>
       </section>
+      <hr style={{ border: "#333 2px solid" }} />
+      {/* <!-- Blog --> */}
+      <section
+        id='blog'
+        className='container d-flex flex-column justify-content-center align-items-center my-5'
+      >
+        <h3 className='mb-3'>Blog Coming Soon!</h3>
+        <img src={`${blogImg}`} alt='blog' className='img-fluid rounded' />
+        <Link to='/blog' className='text-white link '>
+          <button className='btn btn-primary mt-4'>Visit Blog</button>
+        </Link>
+      </section>
       {/* <!-- skills --> */}
       <section>
         <div className='bg-dark' id='skills'>
@@ -215,7 +226,7 @@ function MainContent() {
                 <hr />
                 <p>
                   HTML | CSS | SCSS | JavaScript | React.js | Redux | BootStrap
-                  | Python | PHP | Git | Node.js | Postman | RESTful APIs |
+                  | Python | Git | Node.js | Postman | RESTful APIs |
                   Object-Oriented Programming{" "}
                 </p>
                 <hr />
