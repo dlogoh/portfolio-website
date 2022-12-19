@@ -67,7 +67,7 @@ function MainContent() {
                   coding. Totalling up to 50 hours a week.
                 </p>
                 <p className='fs-5'>
-                  Programming to me is not only an immensly interesting hobby,
+                  Programming to me is not only an immensely interesting hobby,
                   but is something that I am willing to spend a life-time
                   mastering.
                 </p>
