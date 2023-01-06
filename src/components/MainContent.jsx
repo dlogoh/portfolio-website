@@ -1,12 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import computer from "../img/computer.jpg";
 import portImg from "../img/port-img.jpg";
 import skillsPic from "../img/undraw_static_assets_rpm6.svg";
 import cryptograph from "../img/cryptograph.png";
 import thePantry from "../img/ThePantryPortfolioImg.png";
 import expenseTracker from "../img/expenseTracker.png";
-import blogImg from "../img/blog-img.jpg";
+// import blogImg from "../img/blog-img.jpg";
 
 function MainContent() {
   return (
@@ -222,11 +222,12 @@ function MainContent() {
         className='container d-flex flex-column justify-content-center align-items-center my-5'
       >
         <h3 className='mb-3'>Blog Coming Soon!</h3>
-        <img src={`${blogImg}`} alt='blog' className='img-fluid rounded' />
-        <Link to='/blog' className='text-white link '>
+        {/* <img src={`${blogImg}`} alt='blog' className='img-fluid rounded' /> */}
+        {/* <Link to='/blog' className='text-white link '>
           <button className='btn btn-primary mt-4'>Visit Blog</button>
-        </Link>
+        </Link> */}
       </section>
+      <hr style={{ border: "#333 2px solid" }} />
       {/* <!-- skills --> */}
       <section>
         <div className='bg-black' id='skills'>
